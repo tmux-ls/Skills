@@ -13,10 +13,12 @@ import sun.management.counter.perf.PerfLongArrayCounter;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.UUID;
 
 public class AbilitiesHandler implements Listener {
 
     private Map<String, Abilities> skills = new HashMap<>();
+    private Map<UUID, Long> cooldown = new HashMap<>();
 
     public AbilitiesHandler() {
         skills.put("JellyLegs", new JellyLegsAbility());
@@ -39,6 +41,14 @@ public class AbilitiesHandler implements Listener {
 
         abilities.excute(e);
         player.sendMessage(ChatColor.YELLOW + "You have used " + abilities.getName().toUpperCase());
+
+        if (cooldown.containsKey(player.getUniqueId()) && System.currentTimeMillis() < cooldown.get(player.getUniqueId())) {
+
+        } else {
+            abilities.excute(e);
+            player.sendMessage(ChatColor.YELLOW + "You have used " + abilities.getName().toUpperCase());
+            cooldown.put(player.getUniqueId(), System.currentTimeMillis() - (abilities.getCooldown()));
+        }
     }
 
     public Abilities getFromName(String name) {
