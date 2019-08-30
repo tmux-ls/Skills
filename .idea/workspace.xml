@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37a321e1-74a0-4be7-82d0-4d68118b72cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/gg/loski/skills/abilities/AbilitiesHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gg/loski/skills/abilities/AbilitiesHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gg/loski/skills/abilities/type/JellyLegsAbility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gg/loski/skills/abilities/type/JellyLegsAbility.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,15 +13,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gg/loski/skills/abilities/AbilitiesHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="49" column="103" selection-start-line="49" selection-start-column="103" selection-end-line="49" selection-end-column="103" />
+            <state relative-caret-position="170">
+              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
               <folding>
                 <element signature="e#1892#1893#0" expanded="true" />
                 <element signature="e#1970#1971#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/gg/loski/skills/abilities/type/JellyLegsAbility.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -35,6 +44,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/gg/loski/skills/abilities/AbilitiesHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/gg/loski/skills/abilities/type/JellyLegsAbility.java" />
       </list>
     </option>
   </component>
@@ -166,12 +176,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/gg/loski/skills/abilities/AbilitiesHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="49" column="103" selection-start-line="49" selection-start-column="103" selection-end-line="49" selection-end-column="103" />
+        <state relative-caret-position="170">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
           <folding>
             <element signature="e#1892#1893#0" expanded="true" />
             <element signature="e#1970#1971#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gg/loski/skills/abilities/type/JellyLegsAbility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
         </state>
       </provider>
     </entry>
